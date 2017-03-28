@@ -1,0 +1,167 @@
+.file-uploader {
+    display: flex;
+    flex-direction: column;
+
+    flex-shrink: 0;
+
+    border: 1px solid #DCDCDC;
+
+    width: 200px;
+
+    margin-bottom: 10px;
+
+    margin-right: 20px;
+
+    box-shadow: 2px;
+}
+
+.file-uploader__header {
+    height: 15px;
+
+    display: flex;
+    justify-content: space-between;
+
+    padding: 3px;
+
+    border: 1px solid #cfcfcf;
+    color: #747474;
+    background-color: #DCDCDC;
+    text-shadow: #A8A8A8 2px;
+}
+
+.file-uploader__list {
+    display: flex;
+    flex-direction: column;
+
+    flex-shrink: 0;
+
+    overflow-y: auto;
+    height: 60px;
+
+    background-color: #f9f9f9;
+}
+
+.file-uploader__list-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /*margin-bottom: 5px;*/
+    padding: 5px 2px 2px 2px;
+
+    flex-shrink: 0;
+
+    height: 18px;
+}
+
+.file-uploader__list-item-text {
+    font-size: 12px;
+    align-items: center;
+    color: #4b4b4b;
+
+    padding-left: 3px;
+
+}
+
+.file-uploader__list-item-left {
+    display: flex;
+
+    align-items: center;
+}
+
+.file-uploader__list-item-right {
+    justify-content: flex-end;
+}
+
+.file-uploader__list-item-image-add {
+    padding-bottom: 10px;
+}
+
+.file-uploader__list-item-close {
+    padding: 2px 2px 2px 2px;
+
+    cursor: pointer;
+}
+
+.file-uploader__form {
+    overflow: hidden;
+
+    height: 26px;
+
+    position: relative;
+
+    text-align: left;
+    vertical-align: middle;
+
+    background-color: #eeeeee;
+
+    padding: 2px;
+
+    cursor: pointer;
+}
+
+.file-uploader__form-input {
+    width: 100%;
+    height: 30px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    filter: alpha(opacity=0);
+    opacity: 0;
+}
+
+.file-uploader__form-label {
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    float: left;
+
+    height: 15px;
+    width: 100px;
+
+    margin: 5px;
+
+    line-height: 18px;
+    font-size: 15px;
+
+    color: #606060;
+    text-shadow: #4f4f4f 2px;
+}
+
+.file-uploader__form-button {
+    height: 22px;
+    width: 66px;
+
+    float: right;
+
+    padding: 2px 2px 0 2px;
+
+    color: #747474;
+    background-color: #e1e1e1;
+
+    border: 1px solid #C1C1C1;
+    border-radius: 3px;
+
+    box-shadow: #dcdcdc 2px;
+    font-size: medium;
+    text-shadow: 2px;
+}
+
+.file-uploader__form-image {
+    border: 1px solid #A8A8A8;
+    border-radius: 3px;
+}
+
+.file-uploader__form-text-add {
+    text-align: center;
+    padding: 2px 5px 0 0;
+
+}
+
+.file-uploader__list-item-text {
+    color: #4b4b4b;
+
+    padding-left: 3px;
+
+}

@@ -1,0 +1,13 @@
+body,
+html{
+    display: flex;
+    flex-direction: column;
+
+    height: 100%;
+}
+
+.uploader-container{
+    display: flex;
+
+    flex-shrink: 0;
+}

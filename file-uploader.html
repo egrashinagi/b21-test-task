@@ -4,157 +4,61 @@
     <meta charset="UTF-8">
     <title>File uploader</title>
     <link rel="stylesheet" href="styles/file-uploader.css">
+    <link rel="stylesheet" href="styles/chips.css">
 </head>
 <body>
 <div class="file-uploader">
-    <div class="file-uploader__header">Пустая форма загрузки</div>
+    <div class="file-uploader__header">Загрузка файлов</div>
 
-    <div class="file-uploader__list">
+    <div class="file-uploader__list chips">
+            <span class="chips__item">
+                <a href="#" class="chips__item-link" target="_blank">File name</a>
+                <span class="chips__item-close">x</span>
+            </span>
+        <span class="chips__item">
+                <a href="#" class="chips__item-link" target="_blank">File name File name</a>
+                <span class="chips__item-close">x</span>
+            </span>
+        <span class="chips__item">
+                <a href="#" class="chips__item-link" target="_blank">File name File name</a>
+                <span class="chips__item-close">x</span>
+            </span>
+        <span class="chips__item">
+                <a href="#" class="chips__item-link" target="_blank">Very very loooong file name</a>
+                <span class="chips__item-close">x</span>
+            </span>
+        <span class="chips__item">
+                <a href="#" class="chips__item-link" target="_blank">File name</a>
+                <span class="chips__item-close">x</span>
+            </span>
+        <span class="chips__item">
+                <a href="#" class="chips__item-link" target="_blank">File name</a>
+                <span class="chips__item-close">x</span>
+            </span>
+        <span class="chips__item">
+                <a href="#" class="chips__item-link" target="_blank">File name</a>
+                <span class="chips__item-close">x</span>
+            </span>
+        <span class="chips__item">
+                <a href="#" class="chips__item-link" target="_blank">File name</a>
+                <span class="chips__item-close">x</span>
+            </span>
+        <span class="chips__item">
+                <a href="#" class="chips__item-link" target="_blank">File name</a>
+                <span class="chips__item-close">x</span>
+            </span>
+        <span class="chips__item">
+                <a href="#" class="chips__item-link" target="_blank">File name</a>
+                <span class="chips__item-close">x</span>
+            </span>
     </div>
 
     <div class="file-uploader__form">
+        <label for="upload1" class="file-uploader__form-button"></label>
         <div class="file-uploader__form-label"></div>
-        <div class="file-uploader__form-button"> Добавить</div>
-        <input type="file" name="upload" multiple class="file-uploader__form-input"/>
+        <input type="file" id="upload1" name="upload" class="file-uploader__form-input"/>
     </div>
 </div>
-
-<div class="file-uploader">
-    <div class="file-uploader__header">Один файл загружен</div>
-
-    <div class="file-uploader__list">
-        <div class="file-uploader__list-item">
-            <div class="file-uploader__list-item-left">
-                <img src="images/ph.png" alt="ph" class="file-uploader__list-item-image">
-                <span class="file-uploader__list-item-text">Desing a day.psd</span>
-            </div>
-            <div class="file-uploader__list-item-right">
-                <img src="images/delete.png" alt="close"
-                     class="file-uploader__list-item-close">
-            </div>
-        </div>
-    </div>
-
-    <div class="file-uploader__form">
-        <div class="file-uploader__form-label">veryLongNameOfFile.jpg</div>
-        <div class="file-uploader__form-button">Добавить</div>
-        <input type="file" name="upload" multiple class="file-uploader__form-input"/>
-    </div>
-</div>
-
-<div class="file-uploader">
-    <div class="file-uploader__header">Много файлов загружено</div>
-
-    <div class="file-uploader__list">
-        <div class="file-uploader__list-item">
-            <div class="file-uploader__list-item-left">
-                <img src="images/ph.png" alt="ph" class="file-uploader__list-item-image">
-                <span class="file-uploader__list-item-text">Desing a day.psd</span>
-            </div>
-            <div class="file-uploader__list-item-right">
-                <img src="images/delete.png" alt="close"
-                     class="file-uploader__list-item-close">
-            </div>
-        </div>
-        <div class="file-uploader__list-item">
-            <div class="file-uploader__list-item-left">
-                <img src="images/ph.png" alt="ph" class="file-uploader__list-item-image">
-                <span class="file-uploader__list-item-text">Desing a day.psd</span>
-            </div>
-            <div class="file-uploader__list-item-right">
-                <img src="images/delete.png" alt="close"
-                     class="file-uploader__list-item-close">
-            </div>
-        </div>
-        <div class="file-uploader__list-item">
-            <div class="file-uploader__list-item-left">
-                <img src="images/ph.png" alt="ph" class="file-uploader__list-item-image">
-                <span class="file-uploader__list-item-text">Desing a day.psd</span>
-            </div>
-            <div class="file-uploader__list-item-right">
-                <img src="images/delete.png" alt="close"
-                     class="file-uploader__list-item-close">
-            </div>
-        </div>
-        <div class="file-uploader__list-item">
-            <div class="file-uploader__list-item-left">
-                <img src="images/ph.png" alt="ph" class="file-uploader__list-item-image">
-                <span class="file-uploader__list-item-text">Desing a day.psd</span>
-            </div>
-            <div class="file-uploader__list-item-right">
-                <img src="images/delete.png" alt="close"
-                     class="file-uploader__list-item-close">
-            </div>
-        </div>
-        <div class="file-uploader__list-item">
-            <div class="file-uploader__list-item-left">
-                <img src="images/ph.png" alt="ph" class="file-uploader__list-item-image">
-                <span class="file-uploader__list-item-text">Desing a day.psd</span>
-            </div>
-            <div class="file-uploader__list-item-right">
-                <img src="images/delete.png" alt="close"
-                     class="file-uploader__list-item-close">
-            </div>
-        </div>
-        <div class="file-uploader__list-item">
-            <div class="file-uploader__list-item-left">
-                <img src="images/ph.png" alt="ph" class="file-uploader__list-item-image">
-                <span class="file-uploader__list-item-text">Desing a day.psd</span>
-            </div>
-            <div class="file-uploader__list-item-right">
-                <img src="images/delete.png" alt="close"
-                     class="file-uploader__list-item-close">
-            </div>
-        </div>
-        <div class="file-uploader__list-item">
-            <div class="file-uploader__list-item-left">
-                <img src="images/ph.png" alt="ph" class="file-uploader__list-item-image">
-                <span class="file-uploader__list-item-text">Desing a day.psd</span>
-            </div>
-            <div class="file-uploader__list-item-right">
-                <img src="images/delete.png" alt="close"
-                     class="file-uploader__list-item-close">
-            </div>
-        </div>
-        <div class="file-uploader__list-item">
-            <div class="file-uploader__list-item-left">
-                <img src="images/ph.png" alt="ph" class="file-uploader__list-item-image">
-                <span class="file-uploader__list-item-text">Desing a day.psd</span>
-            </div>
-            <div class="file-uploader__list-item-right">
-                <img src="images/delete.png" alt="close"
-                     class="file-uploader__list-item-close">
-            </div>
-        </div>
-        <div class="file-uploader__list-item">
-            <div class="file-uploader__list-item-left">
-                <img src="images/ph.png" alt="ph" class="file-uploader__list-item-image">
-                <span class="file-uploader__list-item-text">Desing a day.psd</span>
-            </div>
-            <div class="file-uploader__list-item-right">
-                <img src="images/delete.png" alt="close"
-                     class="file-uploader__list-item-close">
-            </div>
-        </div>
-        <div class="file-uploader__list-item">
-            <div class="file-uploader__list-item-left">
-                <img src="images/ph.png" alt="ph" class="file-uploader__list-item-image">
-                <span class="file-uploader__list-item-text">Desing a day.psd</span>
-            </div>
-            <div class="file-uploader__list-item-right">
-                <img src="images/delete.png" alt="close"
-                     class="file-uploader__list-item-close">
-            </div>
-        </div>
-    </div>
-
-    <div class="file-uploader__form">
-        <div class="file-uploader__form-label"></div>
-        <div class="file-uploader__form-button">Добавить</div>
-        <input type="file" name="upload" multiple class="file-uploader__form-input"/>
-    </div>
-</div>
-
 <script src="file-uploader.js"></script>
 </body>
 </html>

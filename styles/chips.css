@@ -1,0 +1,30 @@
+.chips {
+
+}
+
+.chips__item {
+    line-height: 0.9em;
+    float: left;
+
+    background-color: #e2e2e2;
+    border: 1px solid #d1d1d1;
+    border-radius: 10px;
+
+    margin: 5px;
+
+    padding: 3px;
+}
+
+.chips__item-link {
+
+    color: #868686;
+    text-decoration: none;
+
+    font-size: 14px;
+}
+
+.chips__item-close {
+    color: #6c6c6c;
+
+    cursor: pointer;
+}

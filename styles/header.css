@@ -11,23 +11,28 @@
     margin: 0 0 10px 0;
 }
 
+.header__icon {
+    color: white;
+}
+
 .header__title {
-    color: #C3EEEB;
+    color: #f9f9f9;
+
     padding: 10px;
-}
-
-.header__part-of {
-    color: #C3EEEB;
-
-    padding-right: 5px;
-}
-
-.header__left {
-    display: flex;
 }
 
 .header__right {
     display: flex;
+    align-items: center;
+}
+
+.header__part-of {
+    color: #C3EEEB;
+}
+
+.header__left {
+    display: flex;
+    align-items: center;
 }
 
 .header__image {

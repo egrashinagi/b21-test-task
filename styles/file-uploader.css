@@ -31,9 +31,6 @@
 
 .file-uploader__form {
     display: flex;
-    /*justify-content: space-between;*/
-
-    background-color: #eeeeee;
 
     padding: 4px;
 

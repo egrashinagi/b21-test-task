@@ -2,25 +2,42 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Part 3</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no"/>
+    <title>Test task</title>
+    <!--Внешние зависимости-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/angular-material/angular-material.css">
+
+    <!--Общие стили-->
     <link rel="stylesheet" href="styles/common.css">
+
+    <!--Стили блоков-->
     <link rel="stylesheet" href="styles/content.css">
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/file-uploader.css">
     <link rel="stylesheet" href="styles/chips.css">
 
 </head>
-<body>
+<body ng-app="YourApp">
 <div class="header">
     <div class="header__left">
-        <div class="header__button">x</div>
-        <img src="images/circul.jpg" alt="xz" class="header__image">
+        <md-button class="md-fab">
+            <md-icon>
+                <i class="material-icons">close</i>
+            </md-icon>
+        </md-button>
         <div class="header__title">Задача 1</div>
-        <img src="images/star.jpg" alt="star" class="header__image">
+        <md-icon>
+            <i class="material-icons header__icon">star</i>
+        </md-icon>
     </div>
     <div class="header__right">
         <div class="header__part-of">1/1</div>
-        <div class="header__button">V</div>
+        <md-button class="md-fab">
+            <md-icon>
+                <i class="material-icons">check</i>
+            </md-icon>
+        </md-button>
     </div>
 </div>
 <div class="uploader-container">
@@ -29,80 +46,30 @@
         <div class="file-uploader__header">Загрузка файлов</div>
 
         <div class="file-uploader__list chips">
-            <span class="chips__item">
-                <a href="#" class="chips__item-link" target="_blank">File name</a>
-                <span class="chips__item-close">x</span>
-            </span>
-            <span class="chips__item">
-                <a href="#" class="chips__item-link" target="_blank">File name File name</a>
-                <span class="chips__item-close">x</span>
-            </span>
-            <span class="chips__item">
-                <a href="#" class="chips__item-link" target="_blank">File name File name</a>
-                <span class="chips__item-close">x</span>
-            </span>
-            <span class="chips__item">
-                <a href="#" class="chips__item-link" target="_blank">Very very loooong file name</a>
-                <span class="chips__item-close">x</span>
-            </span>
-            <span class="chips__item">
-                <a href="#" class="chips__item-link" target="_blank">File name</a>
-                <span class="chips__item-close">x</span>
-            </span>
-            <span class="chips__item">
-                <a href="#" class="chips__item-link" target="_blank">File name</a>
-                <span class="chips__item-close">x</span>
-            </span>
-            <span class="chips__item">
-                <a href="#" class="chips__item-link" target="_blank">File name</a>
-                <span class="chips__item-close">x</span>
-            </span>
-            <span class="chips__item">
-                <a href="#" class="chips__item-link" target="_blank">File name</a>
-                <span class="chips__item-close">x</span>
-            </span>
-            <span class="chips__item">
-                <a href="#" class="chips__item-link" target="_blank">File name</a>
-                <span class="chips__item-close">x</span>
-            </span>
-            <span class="chips__item">
-                <a href="#" class="chips__item-link" target="_blank">File name</a>
-                <span class="chips__item-close">x</span>
-            </span>
-            <span class="chips__item">
-                <a href="#" class="chips__item-link" target="_blank">File name</a>
-                <span class="chips__item-close">x</span>
-            </span>
-            <span class="chips__item">
-                <a href="#" class="chips__item-link" target="_blank">File name File name</a>
-                <span class="chips__item-close">x</span>
-            </span>
-            <span class="chips__item">
-                <a href="#" class="chips__item-link" target="_blank">File name File name</a>
-                <span class="chips__item-close">x</span>
-            </span>
-            <span class="chips__item">
-                <a href="#" class="chips__item-link" target="_blank">Very very loooong file name</a>
-                <span class="chips__item-close">x</span>
-            </span>
-            <span class="chips__item">
-                <a href="#" class="chips__item-link" target="_blank">File name</a>
-                <span class="chips__item-close">x</span>
-            </span>
-            <span class="chips__item">
-                <a href="#" class="chips__item-link" target="_blank">File name</a>
-                <span class="chips__item-close">x</span>
-            </span>
-            <span class="chips__item">
-                <a href="#" class="chips__item-link" target="_blank">File name</a>
-                <span class="chips__item-close">x</span>
-            </span>
-        </div>
+            <div class="file-uploader__form">
 
-        <div class="file-uploader__form">
-            <label for="upload1" class="file-uploader__form-button"></label>
-            <div class="file-uploader__form-label"></div>
-            <input type="file" id="upload1" name="upload" class="file-uploader__form-input"/>
+                <label for="upload1" class="file-uploader__form-button"></label>
+
+                <input type="file" id="upload1" name="upload" class="file-uploader__form-input"/>
+            </div>
+            <span class="chips__item">
+                <a href="#" class="chips__item-link" target="_blank" >File name File name</a>
+                <md-icon>
+                    <i class="material-icons chips__close">close</i>
+                </md-icon>
+            </span>
+            <span class="chips__item">
+                <a href="#" class="chips__item-link" target="_blank">File name</a>
+                <md-icon>
+                <i class="material-icons">close</i>
+            </md-icon>
+            </span>
+            <span class="chips__item">
+                <a href="#" class="chips__item-link" target="_blank">File name</a>
+                <md-icon>
+                <i class="material-icons">close</i>
+            </md-icon>
+            </span>
         </div>
     </div>
 </div>
@@ -179,6 +146,18 @@
         bibendum, nisi felis finibus justo, sed eleifend nunc dui eu elit.
     </p>
 </div>
+<script src="node_modules/angular/angular.js"></script>
+<script src="node_modules/angular-aria/angular-aria.js"></script>
+<script src="node_modules/angular-animate/angular-animate.js"></script>
+<script src="node_modules/angular-material/angular-material.js"></script>
+<script>
+
+    // Include app dependency on ngMaterial
+
+    angular.module('YourApp', ['ngMaterial']);
+
+</script>
+
 <script src="file-uploader.js"></script>
 </body>
 </html>

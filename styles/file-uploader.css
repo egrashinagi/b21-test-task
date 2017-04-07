@@ -64,3 +64,7 @@
 
     color: #565656;
 }
+
+.chips__close {
+    cursor: pointer;
+}

@@ -4,7 +4,6 @@
 
     padding: 3px;
 
-    border: 1px solid #cfcfcf;
     color: #747474;
     background-color: #DCDCDC;
     text-shadow: #A8A8A8 2px;
@@ -15,15 +14,25 @@
 }
 
 .file-uploader__form {
+    display: flex;
     flex-direction: row;
+}
+
+.file-uploader__button {
+    justify-content: flex-start;
+    flex-shrink: 0;
 }
 
 .chips__file-name {
     text-decoration: none;
 
-    color: black;
+    color: #565656;
 }
 
 .chips__close {
     cursor: pointer;
+}
+
+.chips-list {
+    padding: 10px;
 }

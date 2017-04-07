@@ -8,55 +8,114 @@
 </head>
 <body>
 <div class="file-uploader">
-    <div class="file-uploader__header">Загрузка файлов</div>
-
-    <div class="file-uploader__list chips">
-            <span class="chips__item">
-                <a href="#" class="chips__item-link" target="_blank">File name</a>
-                <span class="chips__item-close">x</span>
-            </span>
-        <span class="chips__item">
-                <a href="#" class="chips__item-link" target="_blank">File name File name</a>
-                <span class="chips__item-close">x</span>
-            </span>
-        <span class="chips__item">
-                <a href="#" class="chips__item-link" target="_blank">File name File name</a>
-                <span class="chips__item-close">x</span>
-            </span>
-        <span class="chips__item">
-                <a href="#" class="chips__item-link" target="_blank">Very very loooong file name</a>
-                <span class="chips__item-close">x</span>
-            </span>
-        <span class="chips__item">
-                <a href="#" class="chips__item-link" target="_blank">File name</a>
-                <span class="chips__item-close">x</span>
-            </span>
-        <span class="chips__item">
-                <a href="#" class="chips__item-link" target="_blank">File name</a>
-                <span class="chips__item-close">x</span>
-            </span>
-        <span class="chips__item">
-                <a href="#" class="chips__item-link" target="_blank">File name</a>
-                <span class="chips__item-close">x</span>
-            </span>
-        <span class="chips__item">
-                <a href="#" class="chips__item-link" target="_blank">File name</a>
-                <span class="chips__item-close">x</span>
-            </span>
-        <span class="chips__item">
-                <a href="#" class="chips__item-link" target="_blank">File name</a>
-                <span class="chips__item-close">x</span>
-            </span>
-        <span class="chips__item">
-                <a href="#" class="chips__item-link" target="_blank">File name</a>
-                <span class="chips__item-close">x</span>
-            </span>
-    </div>
+    <div class="file-uploader__header md-headline">Загрузка файлов</div>
 
     <div class="file-uploader__form">
-        <label for="upload1" class="file-uploader__form-button"></label>
-        <div class="file-uploader__form-label"></div>
-        <input type="file" id="upload1" name="upload" class="file-uploader__form-input"/>
+        <md-button class="md-fab file-uploader__button"
+                   onclick="document.querySelector('.file-uploader__input').click()">
+            <md-icon class="material-icons">file_upload</md-icon>
+            <input type="file" class="file-uploader__input">
+        </md-button>
+
+        <md-chips>
+            <md-chip>
+                <a href="#" target="_blank" class="chips__file-name">File name</a>
+                <md-icon>
+                    <i class="material-icons">close</i>
+                </md-icon>
+            </md-chip>
+            <md-chip>
+                <a href="#" target="_blank" class="chips__file-name">File name</a>
+                <md-icon>
+                    <i class="material-icons">close</i>
+                </md-icon>
+            </md-chip>
+            <md-chip>
+                <a href="#" target="_blank" class="chips__file-name">File name</a>
+                <md-icon>
+                    <i class="material-icons">close</i>
+                </md-icon>
+            </md-chip>
+            <md-chip>
+                <a href="#" target="_blank" class="chips__file-name">File name</a>
+                <md-icon>
+                    <i class="material-icons">close</i>
+                </md-icon>
+            </md-chip>
+            <md-chip>
+                <a href="#" target="_blank" class="chips__file-name">File name and very long file name</a>
+                <md-icon>
+                    <i class="material-icons">close</i>
+                </md-icon>
+            </md-chip>
+            <md-chip>
+                <a href="#" target="_blank" class="chips__file-name">File name and very long file name</a>
+                <md-icon>
+                    <i class="material-icons">close</i>
+                </md-icon>
+            </md-chip>
+            <md-chip>
+                <a href="#" target="_blank" class="chips__file-name">File name and very long file name</a>
+                <md-icon>
+                    <i class="material-icons">close</i>
+                </md-icon>
+            </md-chip>
+            <md-chip>
+                <a href="#" target="_blank" class="chips__file-name">File name and very long file name</a>
+                <md-icon>
+                    <i class="material-icons">close</i>
+                </md-icon>
+            </md-chip>
+            <md-chip>
+                <a href="#" target="_blank" class="chips__file-name">File name and very long file name</a>
+                <md-icon>
+                    <i class="material-icons">close</i>
+                </md-icon>
+            </md-chip>
+            <md-chip>
+                <a href="#" target="_blank" class="chips__file-name">File name and very long file name</a>
+                <md-icon>
+                    <i class="material-icons">close</i>
+                </md-icon>
+            </md-chip>
+            <md-chip>
+                <a href="#" target="_blank" class="chips__file-name">File name</a>
+                <md-icon>
+                    <i class="material-icons">close</i>
+                </md-icon>
+            </md-chip>
+            <md-chip>
+                <a href="#" target="_blank" class="chips__file-name">File name</a>
+                <md-icon>
+                    <i class="material-icons">close</i>
+                </md-icon>
+            </md-chip>
+            <md-chip>
+                <a href="#" target="_blank" class="chips__file-name">File name</a>
+                <md-icon>
+                    <i class="material-icons">close</i>
+                </md-icon>
+            </md-chip>
+            <md-chip>
+                <a href="#" target="_blank" class="chips__file-name">File name</a>
+                <md-icon>
+                    <i class="material-icons">close</i>
+                </md-icon>
+            </md-chip>
+            <md-chip>
+                <a href="#" target="_blank" class="chips__file-name">File name</a>
+                <md-icon>
+                    <i class="material-icons">close</i>
+                </md-icon>
+            </md-chip>
+            <md-chip>
+                <a href="#" target="_blank" class="chips__file-name">File name</a>
+                <md-icon>
+                    <i class="material-icons">close</i>
+                </md-icon>
+            </md-chip>
+
+        </md-chips>
     </div>
 </div>
 <script src="file-uploader.js"></script>

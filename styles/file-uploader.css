@@ -29,18 +29,18 @@
     text-shadow: #A8A8A8 2px;
 }
 
-.file-uploader__form {
-    display: flex;
-
-    padding: 4px;
-
-    color: #545454;
-
-    align-items: center;
+.file-uploader__input {
+    display: none;
 }
 
-.file-uploader__form-input {
-    display: none;
+.file-uploader__form {
+    display: flex;
+    flex-direction: row;
+}
+
+.file-uploader__button {
+    justify-content: flex-start;
+    flex-shrink: 0;
 }
 
 .file-uploader__form-label {
@@ -50,24 +50,21 @@
     border-bottom: 1px solid #a5a5a5;
 }
 
-.file-uploader__form-button {
-    height: 22px;
-    width: 22px;
-
-    min-width: 22px;
-
-    padding: 2px;
-
-    background-color: rgb(255, 82, 82);
-    background-image: url('./../images/upload-icon.png');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: 18px;
-
-    border-radius: 50%;
-
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
-    font-size: 15px;
-
+.file-uploader__button {
+    justify-content: flex-start;
+    flex-shrink: 0;
+}
+.chips__close {
     cursor: pointer;
+}
+
+
+.chips-list {
+    padding: 10px;
+}
+
+.chips__file-name {
+    text-decoration: none;
+
+    color: #565656;
 }

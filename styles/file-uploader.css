@@ -32,6 +32,8 @@
 .file-uploader__form {
     display: flex;
     flex-direction: row;
+
+   align-items: center;
 }
 
 .file-uploader__button {

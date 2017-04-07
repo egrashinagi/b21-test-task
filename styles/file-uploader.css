@@ -18,3 +18,12 @@
     flex-direction: row;
 }
 
+.chips__file-name {
+    text-decoration: none;
+
+    color: black;
+}
+
+.chips__close {
+    cursor: pointer;
+}
